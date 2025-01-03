@@ -4,7 +4,7 @@
 // Додай методи класу:  getItems() - повертайте масив товарів
 // addItems(item)- отримує новий товар та додає його до поточних
 // removeItem(item)- отримує товар і, якщо він є, видаляє його з поточних
-const arr = ["apple", "banana", "mango"]
+
 function Storage(initialItems) {
     this.items = Array.isArray(initialItems) ? [...initialItems] : [];
 }
